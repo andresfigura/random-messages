@@ -14,7 +14,19 @@
   "author": "Andres Mauricio Figueroa",
   "license": "MIT",
   "bin": {
-    "random-msg" : "./bin/global.js"
-  }, 
-  "preferGlobal": true
+    "random-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresfigura/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andresfigura/random-messages/issues"
+  },
+  "homepage": "https://github.com/andresfigura/random-messages#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "npm": "^7.24.0"
+  }
 }
